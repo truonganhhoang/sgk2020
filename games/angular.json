@@ -24,6 +24,8 @@
             "tsConfig": "tsconfig.app.json",
             "aot": false,
             "assets": [
+              "src/app/flappy-bird/assets",
+              "src/app/super-mario-land/assets",
               "src/favicon.ico",
               "src/assets"
             ],

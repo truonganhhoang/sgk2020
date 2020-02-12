@@ -1,27 +1,71 @@
 # Games
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+Dự án sử dụng [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
-## Development server
+## Cài đặt
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+thực thi lênh `npm install` để cài đặt thư viện `node_modules`.
 
-## Code scaffolding
+## Chạy
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+thực thi lệnh `npm start` để bắt đầu chạy.
 
-## Build
+## Hướng dẫn tạo game
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Có 2 game mẫu có thể tham khảo là `flappy-bird` và `super-mario-land`.
 
-## Running unit tests
+Tạo thư mục game tại `src/app`. Tên thư mục có thể là tên nhóm hoặc tên game, file khởi tạo game có tên `index.ts`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Trong file `src/app/_home/home.component.html`, thêm đoạn code với tên thư mục game và tên game, mục đích để tạo tuyến đường url truy cập vào game
 
-## Running end-to-end tests
+VD:
+```html
+<ul>
+  ...
+  <li>
+    <a routerLink="/game/flappy-bird">Flappy Bird</a>
+  </li>
+  ...
+</ul>
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Trong file `src/app/_game_/game.component.ts`, thêm đoạn code với tên thư mục game, tên game và khởi tạo đối tượng game, mục đích để khởi tạo đối tượng game
 
-## Further help
+VD:
+```ts
+switch (this.id) {
+  ...
+  case 'flappy-bird':
+    this.name = "Flappy Bird";
+    this.game = new FlappyBird();
+    break;
+  ...
+}
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Trong file `angular.json`, thêm đường dẫn chứa tài nguyên của game, mục đích để khai báo thư mục tài nguyên của game.
+
+VD:
+```json
+{
+  ...
+  "architect": {
+    "build": {
+      "builder": "@angular-devkit/build-angular:browser",
+      "options": {
+        ...
+        "assets": [
+          "src/app/flappy-bird/assets",
+          ...
+        ],
+        ...
+      }
+      ...
+    }
+    ...
+  }
+  ...
+}
+```
+
+Nhớ viết `README.md` trong thư mục game để giới thiệu về game nhé!

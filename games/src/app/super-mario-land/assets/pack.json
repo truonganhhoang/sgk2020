@@ -1,0 +1,146 @@
+{
+  "preload": {
+    "files": [
+      {
+        "type": "bitmapFont",
+        "key": "font",
+        "textureURL": "app/super-mario-land/assets/font/superMarioLand.png",
+        "fontDataURL": "app/super-mario-land/assets/font/superMarioLand.fnt"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1",
+        "url": "app/super-mario-land/assets/maps/level1.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1Room1",
+        "url": "app/super-mario-land/assets/maps/level1Room1.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1Room2",
+        "url": "app/super-mario-land/assets/maps/level1Room2.json"
+      },
+      {
+        "type": "image",
+        "key": "tiles",
+        "url": "app/super-mario-land/assets/tiles/tiles.png"
+      },
+      {
+        "type": "json",
+        "key": "animationJSON",
+        "url": "app/super-mario-land/assets/animations/animations.json"
+      },
+      {
+        "type": "spritesheet",
+        "key": "mario",
+        "url": "app/super-mario-land/assets/sprites/mario.png",
+        "frameConfig": {
+          "frameWidth": 16,
+          "frameHeight": 16
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "box",
+        "url": "app/super-mario-land/assets/sprites/box.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "brick",
+        "url": "app/super-mario-land/assets/sprites/brick.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "rotatingCoin",
+        "url": "app/super-mario-land/assets/sprites/rotatingCoin.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "coin",
+        "url": "app/super-mario-land/assets/sprites/coin.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "goomba",
+        "url": "app/super-mario-land/assets/sprites/goomba.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "image",
+        "key": "platform",
+        "url": "app/super-mario-land/assets/images/platform.png"
+      },
+      {
+        "type": "image",
+        "key": "title",
+        "url": "app/super-mario-land/assets/images/title.png"
+      },
+      {
+        "type": "spritesheet",
+        "key": "coin2",
+        "url": "app/super-mario-land/assets/collectibles/coin2.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "flower",
+        "url": "app/super-mario-land/assets/collectibles/flower.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "heart",
+        "url": "app/super-mario-land/assets/collectibles/heart.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "mushroom",
+        "url": "app/super-mario-land/assets/collectibles/mushroom.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      },
+      {
+        "type": "spritesheet",
+        "key": "star",
+        "url": "app/super-mario-land/assets/collectibles/star.png",
+        "frameConfig": {
+          "frameWidth": 8,
+          "frameHeight": 8
+        }
+      }
+    ]
+  }
+}

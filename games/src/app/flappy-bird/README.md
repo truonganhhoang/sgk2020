@@ -1,6 +1,6 @@
 # Flappy Bird
 
-![Coin Runner](../../assets/flappy-bird/github/flappyBird.png)
+![Coin Runner](../../app/flappy-bird/assets/github/flappyBird.png)
 
 ## Description
 
