@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { FlappyBird } from '../flappy-bird';
+import { SuperMarioLand } from '../super-mario-land';
 
 @Component({
   selector: 'app-game',
@@ -21,6 +22,16 @@ export class GameComponent {
       case 'flappy-bird':
         this.name = "Flappy Bird";
         this.game = new FlappyBird();
+        break;
+
+      case 'super-mario-land':
+        this.name = "Super Mario Land";
+        this.game = new SuperMarioLand();
+        break;
+
+      case '???':
+        this.name = "???";
+        this.game = null;
         break;
 
       default:
