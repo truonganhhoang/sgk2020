@@ -1,0 +1,177 @@
+//** Color Comoon
+// -----------------------------
+
+$color-blue: #2196F3;
+$color-light-blue: #E3F2FD;
+$color-red: #F44336;
+$color-green:#4CAF50;
+$color-green1: #43a047;
+$color-green2: #388e3c;
+$color-green3: #43a047;
+$color-green4: #65b432;
+$color-orange: #FF9800;
+$color-grey: #757575;
+$color-grey1: #e0e0e0;
+$color-grey2: #eeeeee;
+$color-grey3: #f5f5f5;
+$color-grey4: #f5f5f5;
+$color-grey5: #BDBDBD;
+$color-light-orange: #FFF3E0;
+$color-selected: $color-light-orange;
+$color-event: #EDE7F6;
+$color-purple: #7E57C2;
+$color-brown: #CC5F00;
+$color-white: #ffffff;
+$color-primary: #212121;
+$color-secondary: $color-grey;
+$color-disabled: #9e9e9e;
+$color-error: $color-red;
+$color-border: $color-grey1;
+$color-valid: $color-green;
+$bg-color-toolbar: $color-grey2;
+$color-lineIndicator: #f44336;
+$color-teal:#26A69A;
+$color-light-teal:#A7FFEB;
+// màu dùng trong tab lịch sử
+$color-green-log:#81C784;
+$color-red-log:#E57373;
+// màu dùng trong tab phân tích email
+$color-brown2:#F1CFAE;
+// color ảnh
+// màu theo tên cũ
+$color-blue-green: #1DE9B6;
+$color-pink:#ff80ab;
+// màu thêm mới
+$color-green-img: #1DE9B6;
+$color-red-img: #FF8A80;
+$color-pink-img:#FF80AB;
+$color-purple-img:#B388FF;
+$color-indigo-img:#8C9EFF;
+$color-blue-img:#82B1FF;
+$color-light-blue-img:#80D8FF;
+
+// -----------------------------Link
+$color-link: $color-blue;
+$color-link-hover:#1E88E5;
+// -----------------------------NÚT CHÍNH
+
+$color-btn-primary-normal: $color-white;
+$bg-btn-primary-normal: $color-blue;
+$bg-btn-primary-hover: #1e88e5;
+$bg-btn-primary-press: #1976d2;
+$bg-btn-primary-active: $bg-btn-primary-press;
+$bg-btn-primary-focus: #1e88e5;
+
+// -----------------------------NÚT PHỤ 1
+
+$color-btn-secondary-normal: $color-primary;
+$color-btn-secondary-active: $bg-btn-primary-normal;
+$color-border-btn-secondary-normal: $color-border;
+$color-border-btn-secondary-active: $color-blue;
+
+$bg-btn-secondary-normal: $color-grey3;
+$bg-btn-secondary-hover: #e3f2fd;
+$bg-btn-secondary-press:#bbdefb;
+$bg-btn-secondary-active: $bg-btn-secondary-press;
+$bg-btn-secondary-focus: #e3f2fd;
+
+
+// -----------------------------NÚT PHỤ 2
+
+$color-btn-secondary2-normal: $bg-btn-primary-normal;
+$color-btn-secondary2-active:  $color-blue;
+$color-border-btn-secondary2-normal:  $color-blue;
+
+$bg-btn-secondary2-normal: $color-grey3;
+$bg-btn-secondary2-hover: $bg-btn-secondary-hover;
+$bg-btn-secondary2-press: $bg-btn-secondary-press;
+$bg-btn-secondary2-active: $bg-btn-secondary-press;
+$bg-btn-secondary2-focus: $bg-btn-secondary-focus;
+// ---------------------------Nút phụ 3 - 
+
+$color-btn-secondary3-normal: $bg-btn-primary-normal;
+$color-btn-secondary3-active:  $color-blue;
+$color-border-btn-secondary3-normal:  $color-blue;
+
+$bg-btn-secondary3-normal: $color-white;
+$bg-btn-secondary3-hover: $bg-btn-secondary-hover;
+$bg-btn-secondary3-press: $bg-btn-secondary-press;
+$bg-btn-secondary3-active: $bg-btn-secondary-press;
+$bg-btn-secondary3-focus: $bg-btn-secondary-focus;
+
+// -----------------------------NÚT Xóa Loại bỏ chính
+
+$bg-btn-delete-normal: $color-red;
+
+$color-border-btn-delete: $color-red;
+
+$bg-btn-delete-hover: #e90012;
+$bg-btn-delete-press: #d90012;
+$bg-btn-delete-active: $bg-btn-delete-press;
+$bg-btn-delete-focus: #E90012;
+
+// -----------------------------NÚT Xóa Loại bỏ phụ
+$color-border-btn-delete-secondary: $color-red;
+$bg-btn-delete-secondary-normal: $color-grey3;
+$bg-btn-delete-secondary-hover: #ffebee;
+$bg-btn-delete-secondary-press: #ffcdd2;
+$bg-btn-delete-secondary-active: $bg-btn-delete-secondary-press;
+$bg-btn-delete-secondary-focus: #ffebee;
+
+// -----------------------------NÚT Xóa Loại bỏ phụ 2
+$color-border-btn-delete-secondary2: $color-red;
+$bg-btn-delete-secondary2-normal: $color-white;
+$bg-btn-delete-secondary2-hover: #ffebee;
+$bg-btn-delete-secondary2-press: #ffcdd2;
+$bg-btn-delete-secondary2-active: $bg-btn-delete-secondary-press;
+$bg-btn-delete-secondary2-focus: #ffebee;
+// -----------------------------Nút xanh
+$btn-green: $color-green;
+$btn-green-hover:$color-green1;
+$btn-green-press: $color-green2;
+$btn-green-active: $btn-green-press;
+$btn-green-focus:$color-green3;
+
+// ----------------------------Nút xanh phụ 1 - 
+$color-border-btn-green-secondary: $color-green;
+$bg-btn-green-secondary-normal: $color-grey3;
+$bg-btn-green-secondary-hover: #e8f5e9;
+$bg-btn-green-secondary-press: #c8e6c9;
+$bg-btn-green-secondary-active: $bg-btn-green-secondary-press;
+$bg-btn-green-secondary-focus: #e8f5e9;
+// ----------------------------Nút xanh phụ 2 - 
+$color-border-btn-green-secondary: $color-green;
+$bg-btn-green-secondary-normal: $color-white;
+$bg-btn-green-secondary-hover: #e8f5e9;
+$bg-btn-green-secondary-press: #c8e6c9;
+$bg-btn-green-secondary-active: $bg-btn-green-secondary-press;
+$bg-btn-green-secondary-focus: #e8f5e9;
+//** Color Grid
+// -----------------------------
+$bg-color-grid-alt-row: $color-white;
+$bg-color-grid-selected-row: $color-light-blue;
+$bg-color-grid-header-row: $color-white;
+$bg-color-grid: #f5e3e3;
+
+
+.colorlink {
+    color: $color-link;
+  }
+  // mã màu thông báo lỗi
+$text-color-warning: $color-red;
+$text-color-subtitle: $color-primary;
+$color-bg-rule: $color-grey2;
+$color-active-button: $color-green;
+$color-border-bottom: $color-blue;
+
+// color text trên nền đen
+$text-color-black-secondary: $color-grey5;
+
+// -------------------------------- Icon trên nền color-grey3 
+$bg-icon-primary-normal: $color-grey3;
+$bg-icon-primary-hover: $color-grey2;
+$bg-icon-primary-press: $color-grey1;
+
+// -------------------------------- Icon trên nền color-grey2 
+$bg-icon-secondary-hover: $color-grey1;
+$bg-icon-secondary-press: $color-grey5;

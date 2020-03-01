@@ -1,0 +1,13 @@
+<ng-container *ngIf="isAutorized(); else notAuthorized">
+    <app-side-nav-outer-toolbar title="{{appInfo.title}}">
+        <router-outlet></router-outlet>
+        <!-- <app-footer>
+        </app-footer> -->
+    </app-side-nav-outer-toolbar>
+</ng-container>
+
+<ng-template #notAuthorized>
+    <app-single-card>
+        <router-outlet></router-outlet>
+    </app-single-card>
+</ng-template>

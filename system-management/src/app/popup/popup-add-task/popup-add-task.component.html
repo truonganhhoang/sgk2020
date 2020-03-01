@@ -1,0 +1,6 @@
+<dx-popup [width]="300" [height]="250" [showTitle]="true" title="Thêm công việc" [dragEnabled]="true"
+  [closeOnOutsideClick]="true" [(visible)]="visible" (onHidden)="popupClose($event)">
+  <div *dxTemplate="let data of 'content'">
+    <dx-date-box></dx-date-box>
+  </div>
+</dx-popup>
