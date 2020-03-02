@@ -1,0 +1,27 @@
+
+// Convert px to em
+@function pxtoem($target, $context){
+	@if $target == 0 { @return 0 }
+	@return ($target/$context)+0em;
+}
+
+// Convert em to px
+@function emtopx($target, $context){
+	@if $target == 0 { @return 0 }
+	@return ($target*$context)+0px;
+}
+
+// calculate font size
+@function font-size($sizeValue, $font-size-base) {
+	@return ($sizeValue / $font-size-base) * 100%;
+}
+
+// calculate line height
+@function line-height($heightValue, $line-height-base ){
+	@return $heightValue;
+}
+
+// calculate form element height
+@function element-height($heightValue){
+	@return $heightValue;
+}

@@ -1,0 +1,10 @@
+<button class="btn btn-primary m-3" appUnderConstruction (click)="show()">home works!</button>
+
+<app-popup-add-task *ngIf="visiblePopupAddTask" [visible]="visiblePopupAddTask"
+  (closePopup)="visiblePopupAddTask=false"></app-popup-add-task>
+
+<h1>
+  Highchart funnel :)
+</h1>
+<vig-funnel-chart #chart [colorSeries]="colorSeries" yField="Amount" xField="Text" [fnRenderTooltip]="fnRenderTooltip">
+</vig-funnel-chart>
