@@ -1,0 +1,13 @@
+<div class="w-100">
+    <app-nav-bar></app-nav-bar>
+    <div class="main-container" style="margin-top:50px">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>
+
+<ng-template #notAuthorized>
+    <app-single-card>
+        <router-outlet></router-outlet>
+    </app-single-card>
+</ng-template>

@@ -1,0 +1,377 @@
+//property generate
+@mixin make-property($property, $value) {
+  @each $prefix in -webkit-, -moz-, -ms-, -o-, "" {
+    #{$prefix}#{$property}: $value;
+  }
+}
+
+// mixin for bullet proof font declaration syntax
+@mixin declare-font-face(
+  $font-family,
+  $font-filename,
+  $font-weight: normal,
+  $font-style: normal,
+  $font-stretch: normal
+) {
+  @font-face {
+    font-family: "#{$font-family}";
+    src: url("#{$font-filename}.woff") format("woff"),
+      url("#{$font-filename}.ttf") format("truetype");
+    font-weight: $font-weight;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+  }
+}
+$screen-Medium: 1280px;
+// break point
+@mixin breakpoint($point) {
+  @if $point == large {
+    @media only screen and (max-width: $screen-large) {
+      @content;
+    }
+  } @else if $point == medium {
+    @media only screen and (max-width: $screen-Medium) {
+      @content;
+    }
+  } @else if $point == small {
+    @media only screen and (max-width: $screen-small) {
+      @content;
+    }
+  }
+}
+
+// set padding and margin with display
+@mixin display($disp: null, $padding: null, $margin: null) {
+  display: $disp;
+  padding: $padding;
+  margin: $margin;
+}
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// set padding
+@mixin set-padding(
+  $t-padding: null,
+  $r-padding: null,
+  $b-padding: null,
+  $l-padding: null
+) {
+  padding-top: $t-padding;
+  padding-right: $r-padding;
+  padding-bottom: $b-padding;
+  padding-left: $l-padding;
+}
+
+// set margin
+@mixin set-margin(
+  $t-margin: null,
+  $r-margin: null,
+  $b-margin: null,
+  $l-margin: null
+) {
+  margin-top: $t-margin;
+  margin-right: $r-margin;
+  margin-bottom: $b-margin;
+  margin-left: $l-margin;
+}
+
+// top to bottom and left to right gradient background color
+@mixin gradient-background(
+  $from,
+  $to,
+  $middle: null,
+  $fpecnt: null,
+  $tpecnt: null,
+  $mpecnt: null
+) {
+  background: $to; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    $to $tpecnt,
+    $from $fpecnt,
+    $middle $mpecnt
+  ); /* FF3.6+ */
+  background: -webkit-linear-gradient(
+    top,
+    $to $tpecnt,
+    $from $fpecnt,
+    $middle $mpecnt
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    $to $tpecnt,
+    $from $fpecnt,
+    $middle $mpecnt
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    $to $tpecnt,
+    $from $fpecnt,
+    $middle $mpecnt
+  ); /* IE10+ */
+  background: linear-gradient(
+    to bottom,
+    $to $tpecnt,
+    $from $fpecnt,
+    $middle $mpecnt
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$to}', endColorstr='#{$middle}', GradientType=0 ); /* IE6-9 */
+}
+
+@mixin text-shadow($string: 1px 1px 1px rgba(200, 200, 200, 0.9)) {
+  text-shadow: $string;
+}
+
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// box shadow
+@mixin box-shadow($string) {
+  @include make-property(box-shadow, $string);
+}
+
+@mixin drop-shadow($x: 0, $y: 1px, $blur: 2px, $spread: 0, $alpha: 0.25) {
+  -webkit-box-shadow: $x $y $blur $spread rgba(0, 0, 0, $alpha);
+  -moz-box-shadow: $x $y $blur $spread rgba(0, 0, 0, $alpha);
+  box-shadow: $x $y $blur $spread rgba(0, 0, 0, $alpha);
+}
+
+@mixin inner-shadow($x: 0, $y: 1px, $blur: 2px, $spread: 0, $alpha: 0.25) {
+  -webkit-box-shadow: inset $x $y $blur $spread rgba(0, 0, 0, $alpha);
+  -moz-box-shadow: inset $x $y $blur $spread rgba(0, 0, 0, $alpha);
+  box-shadow: inset $x $y $blur $spread rgba(0, 0, 0, $alpha);
+}
+
+@mixin box-sizing($type: border-box) {
+  @include make-property(box-sizing, $type);
+}
+
+// set border radious
+@mixin border-radius($radius: 4px) {
+  @include make-property(border-radius, $radius);
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+// Single side border-radius
+@mixin border-top-radius($radius) {
+  -webkit-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+  -webkit-border-top-left-radius: $radius;
+  border-top-left-radius: $radius;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+@mixin border-right-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+  -webkit-border-top-right-radius: $radius;
+  border-top-right-radius: $radius;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+@mixin border-bottom-radius($radius) {
+  -webkit-border-bottom-right-radius: $radius;
+  border-bottom-right-radius: $radius;
+  -webkit-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+@mixin border-left-radius($radius) {
+  -webkit-border-bottom-left-radius: $radius;
+  border-bottom-left-radius: $radius;
+  -webkit-border-top-left-radius: $radius;
+  border-top-left-radius: $radius;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+@mixin border-radiuses(
+  $topright: 0,
+  $bottomright: 0,
+  $bottomleft: 0,
+  $topleft: 0
+) {
+  -webkit-border-top-right-radius: $topright;
+  -webkit-border-bottom-right-radius: $bottomright;
+  -webkit-border-bottom-left-radius: $bottomleft;
+  -webkit-border-top-left-radius: $topleft;
+
+  -moz-border-radius-topright: $topright;
+  -moz-border-radius-bottomright: $bottomright;
+  -moz-border-radius-bottomleft: $bottomleft;
+  -moz-border-radius-topleft: $topleft;
+
+  border-top-right-radius: $topright;
+  border-bottom-right-radius: $bottomright;
+  border-bottom-left-radius: $bottomleft;
+  border-top-left-radius: $topleft;
+
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+
+@mixin set-border-radius(
+  $tl-radius: null,
+  $bl-radius: null,
+  $tr-radius: null,
+  $br-radius: null
+) {
+  border-top-left-radius: $tl-radius;
+  border-bottom-left-radius: $bl-radius;
+  border-top-right-radius: $tr-radius;
+  border-bottom-right-radius: $br-radius;
+}
+
+//set display flexbox
+@mixin set-flexbox() {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex: 1 auto;
+}
+
+// generate default style to link
+@mixin link-hover {
+  background-color: $link-background-color;
+  color: $link-hover-color;
+}
+
+@mixin opacity($opacity: 0.5) {
+  -webkit-opacity: $opacity;
+  -moz-opacity: $opacity;
+  opacity: $opacity;
+  filter: alpha(opacity=$opacity);
+}
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+@mixin set-position(
+  $position,
+  $top: auto,
+  $right: auto,
+  $bottom: auto,
+  $left: auto
+) {
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+  position: $position;
+}
+
+@mixin button($border-color, $bg-color, $text-color) {
+  height: 32px;
+  line-height: 20px !important;
+  padding: 5px 12px;
+  @include border-radius($element-border-radius);
+  border: 1px solid $border-color;
+  @include make-property(box-sizing, border-box);
+  background-color: $bg-color;
+  color: $text-color;
+  font-size: $font-button;
+  line-height: $font-size-base;
+  font-family: $font-family-base;
+  font-weight: $font-weight-regular;
+  font-variant: normal;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  position: relative;
+  @include make-property(box-sizing, border);
+}
+
+@mixin host {
+  width: 100%;
+  height: 100%;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+@mixin show-center($position: "center") {
+  position: absolute;
+  z-index: 1;
+  @if $position== "center" {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50px);
+    -moz-transform: translate(-50%, -50px);
+    -webkit-transform: translate(-50%, -50px);
+  } @else if $position== "top" {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+  } @else if $position== "bottom" {
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50px);
+    -webkit-transform: translateX(-50px);
+  }
+}
+@mixin triangle($color, $width, $position: "up") {
+  @if $position== "up" {
+    width: 0;
+    height: 0;
+    border-left: $width solid transparent;
+    border-right: $width solid transparent;
+    border-bottom: $width solid $color;
+  } @else if $position== "down" {
+    width: 0;
+    height: 0;
+    border-left: $width solid transparent;
+    border-right: $width solid transparent;
+    border-top: $width solid $color;
+  } @else if $position== "right" {
+    width: 0;
+    height: 0;
+    border-top: $width solid transparent;
+    border-bottom: $width solid transparent;
+    border-left: $width solid $color;
+  } @else if $position== "left" {
+    width: 0;
+    height: 0;
+    border-top: $width solid transparent;
+    border-bottom: $width solid transparent;
+    border-right: $width solid $color;
+  }
+}

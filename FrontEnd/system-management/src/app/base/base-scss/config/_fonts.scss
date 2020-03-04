@@ -1,0 +1,71 @@
+//** Font weights
+// -----------------------------
+$font-weight-bold-black: 800;
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+$font-weight-light: 300;
+$font-weight-thin: 300;
+
+//** Typography
+// -----------------------------
+$font-name: "Roboto";
+$font-style-italic: italic;
+$font-smoothing: always;
+
+// Vertical Spacing
+$line-height-base: 1.428571429; // 20/14
+
+//** Settings
+// -----------------------------
+$font-family-base: $font-name, "tahoma", "sans-serif" !default;
+$font-size-base: 13px;
+$font-weight-base: $font-weight-regular;
+$font-bigtitle: 30px;
+$font-largetitle: 28px;
+$font-headline: 24px;
+$font-title: 20px;
+$font-subtitle: 18px;
+$font-subheader: 16px;
+$font-body3: 14px;
+$font-body2: 13px;
+$font-body1: 13px;
+$font-cation: 12px;
+$font-tinycaption: 11px;
+$font-button: 13px;
+
+$font-title-base: bold normal $font-weight-bold $font-title/$font-size-base
+  $font-family-base;
+$font-subheader-base: regular normal $font-weight-regular
+  $font-subheader/$font-size-base $font-family-base;
+$font-body2-base: bold normal $font-weight-bold $font-body2/$font-size-base
+  $font-family-base;
+$font-body1-base: regular normal $font-weight-regular
+  $font-body1/$font-size-base $font-family-base;
+$font-cation-base: regular normal $font-weight-regular
+  $font-cation/$font-size-base $font-family-base;
+$font-button-base: regular normal $font-weight-regular
+  $font-button/$font-size-base $font-family-base;
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: $font-size-base;
+  font-family: $font-family-base
+}
+
+.bold {
+    font-weight: $font-weight-bold;
+  }
+  .fontsize28 {
+    font-size: $font-largetitle;
+  }
+  .fontsize24 {
+    font-size: $font-headline;
+  }
+  .fontsize20 {
+    font-size: $font-title;
+  }
+  .fontsize16 {
+    font-size: $font-subheader;
+  }
