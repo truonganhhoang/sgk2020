@@ -1,0 +1,11 @@
+<div class="black-overlay" [ngStyle]="{'background-color': bdColor}" [style.position]="fullScreen ? 'fixed' : 'absolute'">
+    <div class="ball-clip-rotate-pulse-scale" [style.color]="color">
+        <div class="la-ball-clip-rotate-pulse la-2x">
+            <div class="ball-clip-rotate-pulse-rotate"></div>
+            <div class="ball-clip-rotate-pulse-scale"></div>
+        </div>
+    </div>
+    <div class="loading-text" [style.color]="color">
+        <span>{{text}}</span>
+    </div>
+</div>

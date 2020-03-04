@@ -1,0 +1,914 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/noto-sans/noto-sans-v6-regular-65cf551a04da09241bedf3bd8c41bb56.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-regular-42ce1d2f6fcd2f60de83d873da416d55.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/noto-sans/noto-sans-v6-700-e048b84d60f7f31b143bbcd6c997fdfa.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-700-fe7418c613771c54ab75b21ff481566a.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/assets/noto-sans/noto-sans-v6-italic-89e9add4264880482076bdd79bd095d9.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-italic-1ecf8509628f2a906f732c39078a8905.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(/assets/noto-sans/noto-sans-v6-700italic-e3ff4e6c974fced203fed4011037cbac.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-700italic-0ff4bd23af98c2e0b9c05a1b46892ac6.woff) format("woff")
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.modal .modal-state {
+  display: none
+}
+
+.modal .modal-fade-screen {
+  position: fixed;
+  padding-top: 0.6em;
+  background-color: rgba(0,0,0,0.85);
+  opacity: 0;
+  text-align: left;
+  transition: opacity 0.25s ease;
+  visibility: hidden;
+  z-index: 99999999999
+}
+
+.modal .modal-fade-screen .modal-bg {
+  position: absolute;
+  cursor: pointer
+}
+
+.modal .modal-close {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  background: #fff;
+  cursor: pointer
+}
+
+.modal .modal-close::after,.modal .modal-close::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  display: block;
+  background: #ddd;
+  transform: rotate(45deg)
+}
+
+.modal .modal-close:hover::after,.modal .modal-close:hover::before {
+  background: #c4c4c4
+}
+
+.modal .modal-close::before {
+  transform: rotate(-45deg)
+}
+
+.modal .modal-inner {
+  background: #fff;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 0;
+  max-height: 95%;
+  overflow: auto;
+  padding: 1.5em;
+  position: relative;
+  transition: opacity 0.25s ease;
+  width: 820px
+}
+
+.modal .modal-inner h1 {
+  color: #333;
+  text-align: left;
+  text-transform: capitalize
+}
+
+.modal .modal-inner p {
+  color: #333;
+  line-height: 1.5em
+}
+
+.modal .modal-inner .modal-intro {
+  margin-bottom: 1em
+}
+
+.modal .modal-inner .modal-content {
+  color: #333
+}
+
+.modal .modal-inner a.cta {
+  color: #fff;
+  display: inline-block;
+  margin-right: 0.5em;
+  margin-top: 1em
+}
+
+.modal .modal-inner a.cta:last-child {
+  padding: 0 2em
+}
+
+.modal .modal-state:checked+.modal-fade-screen {
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  visibility: visible
+}
+
+.modal .modal-state:checked+.modal-fade-screen .modal-inner {
+  margin: 0
+}
+
+.modal--ver2 {
+  min-width: 992px
+}
+
+.modal--ver2 .modal-fade-screen {
+  background-color: rgba(10,14,33,0.4)
+}
+
+.modal--ver2 .modal-inner {
+  position: absolute;
+  font-family: "Noto Sans";
+  text-align: left;
+  padding: 25px 45px !important;
+  border: none;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+  border-radius: 8px !important;
+  display: block;
+  width: 756px !important
+}
+
+.modal--ver2 .modal-inner__title {
+  font-weight: bold;
+  line-height: 22px;
+  font-size: 18px !important;
+  color: #000;
+  margin-bottom: 15px
+}
+
+.modal--ver2 .modal-inner__text,.modal--ver2 .modal-inner p {
+  line-height: 22px;
+  font-size: 15px !important;
+  color: #000;
+  padding-bottom: 10px
+}
+
+.modal--ver2 .modal-inner__info {
+  position: relative;
+  padding-left: 37px;
+  font-size: 15px !important
+}
+
+.modal--ver2 .modal-inner__info:before {
+  content: '';
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-image: url(/assets/icons/info-alert-462983367564ef074523898921600dbe.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0
+}
+
+.modal--ver2 .modal-inner--dino {
+  position: relative;
+  overflow: visible
+}
+
+.modal--ver2 .modal-inner--dino:before {
+  content: '';
+  display: block;
+  width: 98px;
+  height: 59px;
+  background-image: url(/assets/dino-on-block-de1e4275c7b22b13b82d0d62a940d47d.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -48px;
+  position: absolute
+}
+
+.modal--ver2 .modal-btn {
+  border-radius: 5px;
+  font-family: "Noto Sans";
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center;
+  height: 60px;
+  width: 254px;
+  line-height: 55px;
+  margin: 20px auto 10px;
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  justify-content: center
+}
+
+@keyframes animate-pulse {
+  from {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1)
+  }
+
+  50% {
+      -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2)
+  }
+
+  to {
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1)
+  }
+}
+
+.animate-pulse {
+  -webkit-animation-name: animate-pulse;
+  -moz-animation-name: animate-pulse;
+  animation-name: animate-pulse;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 6;
+  -moz-animation-iteration-count: 6;
+  animation-iteration-count: 6;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s
+}
+
+.animate-pulse-9 {
+  -webkit-animation-name: animate-pulse;
+  -moz-animation-name: animate-pulse;
+  animation-name: animate-pulse;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: 9;
+  -moz-animation-iteration-count: 9;
+  animation-iteration-count: 9;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/noto-sans/noto-sans-v6-regular-65cf551a04da09241bedf3bd8c41bb56.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-regular-42ce1d2f6fcd2f60de83d873da416d55.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/noto-sans/noto-sans-v6-700-e048b84d60f7f31b143bbcd6c997fdfa.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-700-fe7418c613771c54ab75b21ff481566a.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/assets/noto-sans/noto-sans-v6-italic-89e9add4264880482076bdd79bd095d9.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-italic-1ecf8509628f2a906f732c39078a8905.woff) format("woff")
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(/assets/noto-sans/noto-sans-v6-700italic-e3ff4e6c974fced203fed4011037cbac.woff2) format("woff2"),url(/assets/noto-sans/noto-sans-v6-700italic-0ff4bd23af98c2e0b9c05a1b46892ac6.woff) format("woff")
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
+
+.main {
+  padding-top: 40px;
+  min-height: 100vh;
+  background-color: #e4e4e4
+}
+
+.main--content {
+  background-color: #e4e4e4
+}
+
+.main--content .students-subject {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  box-lines: multiple;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center
+}
+
+.main--content .students-subject .disabled_item {
+  opacity: .6
+}
+
+.main--content .students-subject__item-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px
+}
+
+.main--content .students-subject__homework-count {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #E94156;
+  border-radius: 50%;
+  right: 8px;
+  top: 8px;
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 24px;
+  font-family: "Noto Sans";
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+.main--content .students-subject__item {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 16px 42px;
+  padding: 20px 0 0 0;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: #868686;
+  background-color: white;
+  background-size: 100% 60px;
+  border-radius: 15px;
+  z-index: 100;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear
+}
+
+.main--content .students-subject__item:hover {
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  -o-transform: scale(1.04);
+  transform: scale(1.04)
+}
+
+.main--content .students-subject__item:hover:after {
+  content: "";
+  position: absolute;
+  top: -32px;
+  left: 22px;
+  width: 73px;
+  height: 40px;
+  display: block;
+  background-image: url(/assets/student/dino-hover-19-03fd8ec8409e8069588cb4389d92a4a6.svg);
+  background-repeat: no-repeat
+}
+
+.main--content .students-subject__item__title {
+  box-sizing: border-box;
+  padding: 68px 0 0 0;
+  height: 95px;
+  font-size: 25px;
+  color: #5b5b5c;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-repeat: no-repeat;
+  background-size: 100% 65px;
+  background-position: top center;
+  overflow: hidden
+}
+
+.main--content .students-subject__item .subject-1,.main--content .students-subject__item .maths {
+  background-image: url(/assets/teacher/maths_logo-0fce466d81854955469130a1ca4983d9.svg)
+}
+
+.main--content .students-subject__item .subject-2 {
+  background-image: url(/assets/teacher/russian_logo-a9e83234174f8dbceb7ae37814c661b4.svg)
+}
+
+.main--content .students-subject__item .subject-5 {
+  background-image: url(/assets/teacher/english_logo-73d88f335f5886c74c72c6265b01f843.svg)
+}
+
+.main--content .students-subject__item .subject-6 {
+  background-image: url(/assets/teacher/environment_logo-96e2053514645b04ed3e05ee88dec36f.svg)
+}
+
+.main--content .students-subject__item .olymp-dino {
+  background-image: url(/assets/live_olympiads/logo-cd52ee424b9089fef7e649846416802c.svg);
+  background-size: 138px 60px;
+  background-position: center 10px
+}
+
+.main--content .students-subject__item .olymp-brics {
+  background-position: center top;
+  background-repeat: no-repeat
+}
+
+.main--content .students-subject__item .olymp-brics--india {
+  background-image: url(/assets/live_olympiads/india-b5432496f513d3fd2ea8f1f15db54517.svg);
+  background-size: 100%
+}
+
+.main--content .students-subject__item .olymp-brics--russia {
+  background-image: url(/assets/live_olympiads/brics-rus-d2e6f7d42ba2d3e3be68eed9282501f2.svg);
+  background-size: 100%
+}
+
+.main--content .students-subject__item .olymp-brics--brazil {
+  background-image: url(/assets/live_olympiads/brics-brazil-df6f11417eb4bf45e9cf28a8f09679f7.svg);
+  background-size: 100%
+}
+
+.main--content .students-subject__item .olymp-brics--south-africa {
+  background-image: url(/live_olympiads/south-africa.svg);
+  background-size: 100%
+}
+
+.main--content .students-subject__item .olymp-biz {
+  padding-top: 73px;
+  font-size: 18px;
+  background-image: url(/assets/students/olympiads/biz_h-a71a8da7824ce86e511356d44bba030e.svg);
+  background-position: center 0;
+  background-size: 100% 62px
+}
+
+.main--content .students-subject__item .olymp-high-math {
+  background-image: url(/assets/olympiads/math_high/oct17/logo_math-4921b2f7010d6233f3069ae7e0c923f3.svg);
+  background-size: 220px;
+  background-position: center 16px
+}
+
+.main--content .students-subject__item .olymp-sbrf {
+  padding-top: 73px;
+  font-size: 18px;
+  background-image: url(/assets/students/olympiads/sbrf_h-6c0936989301f66d9adac28d88d5d985.svg);
+  background-position: center 0;
+  background-size: 76% 62px
+}
+
+.main--content .students-subject__item .olymp-high-plus {
+  background-image: url(/assets/students/olympiads/high_plus_h-7620c307212c83fac514bfbc79066ea4.svg)
+}
+
+.main--content .students-subject__item .olymp-sa_plus {
+  font-size: 18px
+}
+
+.main--content .students-subject__item .olymp-junior-plus {
+  background-image: url(/assets/students/olympiads/junior_plus_h-a44eaf2b6e3554a615709c740d1487dd.svg);
+  background-position: center 3px;
+  background-size: 100% 60px
+}
+
+.main--content .students-subject__item .olymp-rus {
+  background-image: url(/assets/students/olympiads/rus_h-ff68f017a68aacf1fb666bf84b48b2d8.svg)
+}
+
+@media (min-width: 1024px) {
+  .main--content .students-subject__item .olymp-rus {
+      padding:72px 0 0 0;
+      font-size: 20px
+  }
+}
+
+.main--content .students-subject__item__stat {
+  box-sizing: border-box;
+  padding: 15px 12px 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 75px;
+  max-height: 75px
+}
+
+.main--content .students-subject__item__stat__circle {
+  width: 60px;
+  height: 60px
+}
+
+.main--content .students-subject__item__stat__circle .circle {
+  height: 60px
+}
+
+.main--content .students-subject__item__stat__circle circle {
+  fill: transparent;
+  stroke: #dadada;
+  stroke-width: 8;
+  stroke-dasharray: 408px 408px;
+  height: 60px
+}
+
+.main--content .students-subject__item__stat__circle circle:nth-child(2n) {
+  fill: transparent;
+  stroke: #ea596a;
+  stroke-width: 8;
+  height: 60px
+}
+
+.main--content .students-subject__item__stat__circle span {
+  position: relative;
+  top: -36px
+}
+
+.main--content .students-subject__item__stat__status {
+  box-sizing: border-box;
+  padding: 0 0 0 10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  box-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  width: 70%;
+  text-align: left
+}
+
+.main--content .students-subject__item__stat__status p {
+  margin-bottom: 5px;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+.main--content .students-subject__item__stat__status .info__about {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+  max-height: 50px;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden
+}
+
+.main--content .students-subject__item .trial_tour .info,.main--content .students-subject__item .main_tour_soon .info,.main--content .students-subject__item .main_tour_tomorrow .info,.main--content .students-subject__item .main_tour .info,.main--content .students-subject__item .main_tour_last_day .info,.main--content .students-subject__item .finalizing .info,.main--content .students-subject__item .rewarding .info {
+  padding-left: 15px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  text-align: left;
+  color: #fff
+}
+
+.main--content .students-subject__item .announcement,.main--content .students-subject__item .trial_tour_soon {
+  background: transparent
+}
+
+.main--content .students-subject__item .announcement .icon_block,.main--content .students-subject__item .trial_tour_soon .icon_block {
+  display: none
+}
+
+.main--content .students-subject__item .announcement .info,.main--content .students-subject__item .trial_tour_soon .info {
+  padding: 0;
+  width: 100%;
+  color: #868686;
+  text-align: center;
+  line-height: 1.2
+}
+
+.main--content .students-subject__item .announcement .info__about-class,.main--content .students-subject__item .trial_tour_soon .info__about-class {
+  max-width: none
+}
+
+.main--content .students-subject__item .trial_tour,.main--content .students-subject__item .main_tour_tomorrow {
+  background-color: #75b4db
+}
+
+.main--content .students-subject__item .trial_tour span,.main--content .students-subject__item .main_tour_tomorrow span {
+  margin-bottom: 5px;
+  display: inline-block
+}
+
+.main--content .students-subject__item .trial_tour .icon_block,.main--content .students-subject__item .main_tour_tomorrow .icon_block {
+  background-image: url(/assets/teacher/trial-tour-8027c327b18ce629ff89935872790c50.svg)
+}
+
+.main--content .students-subject__item .main_tour_soon,.main--content .students-subject__item .main_tour,.main--content .students-subject__item .main_tour_last_day {
+  background-color: #eb596a
+}
+
+.main--content .students-subject__item .main_tour_soon .icon_block,.main--content .students-subject__item .main_tour .icon_block,.main--content .students-subject__item .main_tour_last_day .icon_block {
+  background-image: url(/assets/teacher/main-tour-b0c70d2c30eb6d60f9f8184d26332a4f.svg)
+}
+
+body.russia .main--content .students-subject__item .main_tour_soon .icon_block,body.russia .main--content .students-subject__item .main_tour .icon_block,body.russia .main--content .students-subject__item .main_tour_last_day .icon_block {
+  background-image: url(/assets/teacher/main-tour.ru-b0c70d2c30eb6d60f9f8184d26332a4f.svg)
+}
+
+body.south-africa .main--content .students-subject__item .main_tour_soon .icon_block,body.south-africa .main--content .students-subject__item .main_tour .icon_block,body.south-africa .main--content .students-subject__item .main_tour_last_day .icon_block {
+  background-image: url(/assets/teacher/main-tour.en-f04d74c25b8f047b42bd37a3c646773f.svg)
+}
+
+.main--content .students-subject__item .main_tour_soon .icon_block_40_min,.main--content .students-subject__item .main_tour .icon_block_40_min,.main--content .students-subject__item .main_tour_last_day .icon_block_40_min {
+  background-image: url(/assets/teacher/main-tour-40-min-d38205ba0f79b0ba508eab883799f696.svg)
+}
+
+.main--content .students-subject__item .finalizing {
+  background-color: #c2c4be
+}
+
+.main--content .students-subject__item .finalizing .icon_block {
+  background-image: url(/assets/teacher/finalizing-new-938815ca296a46f392b53f07e799c1ca.svg)
+}
+
+.main--content .students-subject__item .rewarding {
+  background-color: #7e80c0
+}
+
+.main--content .students-subject__item .rewarding .icon_block {
+  background-image: url(/assets/teacher/rewarding-new-2f38cfc7ea7357d829b2a37abc717e9e.svg)
+}
+
+.main--content .students-subject__item--homework {
+  position: relative;
+  padding: 0
+}
+
+.main--content .students-subject__item--homework .students-subject__item-wrap {
+  padding: 20px 0 0 0;
+  background-color: white
+}
+
+.main--content .students-subject__item--homework .students-subject__item-wrap:before {
+  content: '';
+  position: absolute;
+  background-image: url(/assets/icons/homework-dice-244b9cac344f9ba122b7ad7cfa9b9b41.svg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  right: -44px;
+  top: -30px
+}
+
+.main--content .zavriki {
+  background-image: url(/assets/students/main-zavriki-ba98a9e4bb3f7d923e1288ace44d11e2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+.main--content .zavriki .info__about {
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  padding: 0 15px;
+  width: 100%
+}
+
+.main--content .portfolio {
+  background-image: url(/assets/students/main-portfolio-7a0e90c2cafa0589c03f7056f66c62f1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+.main--content .portfolio p {
+  font-size: 1.4rem;
+  color: #6f568e
+}
+
+.en .main--content .portfolio {
+  background-image: url(/assets/students/main-portfolio.en-5a348ebdb6060aee891d07d3964b65a7.svg)
+}
+
+.tn .main--content .portfolio {
+  background-image: url(/assets/students/main-portfolio.en-5a348ebdb6060aee891d07d3964b65a7.svg)
+}
+
+.zu .main--content .portfolio {
+  background-image: url(/assets/students/main-portfolio.en-5a348ebdb6060aee891d07d3964b65a7.svg)
+}
+
+.pt .main--content .portfolio {
+  background-image: url(/assets/students/main-portfolio.pt-9a82db4907669595117f256ec81ad436.svg)
+}
+
+.main--content .olymp {
+  background-image: url(/assets/olimps-d19bcc9828dc995800492be09d44e188.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+.en .main--content .olymp {
+  background-image: url(/assets/olimps.en-e03a2ff64c6d27f6cf64eb0327cef232.svg)
+}
+
+.zu .main--content .olymp {
+  background-image: url(/assets/olimps.en-e03a2ff64c6d27f6cf64eb0327cef232.svg)
+}
+
+.tn .main--content .olymp {
+  background-image: url(/assets/olimps.en-e03a2ff64c6d27f6cf64eb0327cef232.svg)
+}
+
+.pt .main--content .olymp {
+  background-image: url(/assets/olimps.pt-6f55fa675aceb41191732a80bc261a68.svg)
+}
+
+.main--content .games {
+  background-image: url(/assets/game-section/game-8fe9c31dfa35ff160dfeee107f146ccb.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+body.en .main--content .games {
+  background-image: url(/assets/game-section/en/game-8975242ad46b518f94d797841a5c815d.svg)
+}
+
+body.tn .main--content .games {
+  background-image: url(/assets/game-section/en/game-8975242ad46b518f94d797841a5c815d.svg)
+}
+
+body.zu .main--content .games {
+  background-image: url(/assets/game-section/en/game-8975242ad46b518f94d797841a5c815d.svg)
+}
+
+.main--content .webinars {
+  background-image: url(/assets/students/webinars-daf83e1960a0b65af8499dd25f8eafee.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center
+}
+
+.panel__heading {
+  margin-bottom: 30px;
+  padding-left: 84px;
+  width: 100%;
+  font-size: 1.375rem
+}
+
+.lable-repeat {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 10px;
+  color: #000;
+  background-color: #fed14b;
+  border-radius: 20px
+}
+
+.fast-sale {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999999999
+}

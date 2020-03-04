@@ -1,0 +1,13 @@
+@import  '../../../base/base-scss/config/colors.scss';
+:host{
+    .nav-bar-top{
+        border-bottom: 1px solid $color-border;
+    .app-icon-header{
+        // background: url(./../../../../assets/image/logo-9202ca7c1b07c123ccd2eeeb61d994ec.svg) center no-repeat;
+        background-size: 160px 20px;
+        display: block;
+        width: 160px;
+        height: 50px;
+    }
+}
+}
