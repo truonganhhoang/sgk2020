@@ -16,3 +16,22 @@ c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\Library\bi
 c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
 c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\Library\obj\Debug\Library.dll
 c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\Library\obj\Debug\Library.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Library.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Library.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Google.Protobuf.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\MySql.Data.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Renci.SshNet.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\System.Security.AccessControl.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\System.Security.Permissions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Google.Protobuf.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\MySql.Data.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\bin\Debug\Renci.SshNet.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\obj\Debug\Library.csprojAssemblyReference.cache
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\obj\Debug\Library.csproj.CopyComplete
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\obj\Debug\Library.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\Library\obj\Debug\Library.pdb

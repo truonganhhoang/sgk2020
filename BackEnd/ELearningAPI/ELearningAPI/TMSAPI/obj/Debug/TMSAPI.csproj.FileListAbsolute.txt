@@ -1,0 +1,418 @@
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSAPI.dll.config
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSAPI.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSAPI.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\csc.exe
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\csc.exe.config
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\csc.rsp
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\csi.exe
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\csi.exe.config
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\csi.rsp
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Console.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\vbc.exe
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\vbc.exe.config
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\vbc.rsp
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Net.Http.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Library.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\NLog.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Owin.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Web.Http.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSBL.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSBO.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSDL.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Unity.Abstractions.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Unity.Container.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Unity.Interception.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\MySql.Data.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Dapper.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Google.Protobuf.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Renci.SshNet.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Library.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSBL.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSBO.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\TMSDL.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\NLog.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Unity.Abstractions.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Unity.Container.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Unity.Interception.pdb
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Web.Http.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\MySql.Data.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Dapper.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Google.Protobuf.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\bin\Renci.SshNet.xml
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\obj\Debug\TMSAPI.dll
+C:\Users\Admin\source\repos\TMSAPI\TMSAPI\obj\Debug\TMSAPI.pdb
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\Microsoft.Win32.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\netstandard.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.AppContext.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Collections.Concurrent.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Collections.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Collections.NonGeneric.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Collections.Specialized.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.ComponentModel.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.ComponentModel.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Console.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Data.Common.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.Contracts.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.Debug.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.Process.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.Tools.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.TraceSource.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Diagnostics.Tracing.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Drawing.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Dynamic.Runtime.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Globalization.Calendars.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Globalization.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Globalization.Extensions.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.Compression.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.Compression.ZipFile.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.FileSystem.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.IsolatedStorage.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.Pipes.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Linq.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Linq.Expressions.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Linq.Parallel.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Linq.Queryable.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.NameResolution.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.NetworkInformation.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.Ping.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.Requests.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.Security.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.Sockets.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.WebHeaderCollection.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.WebSockets.Client.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Net.WebSockets.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.ObjectModel.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Reflection.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Reflection.Extensions.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Reflection.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Resources.Reader.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Resources.ResourceManager.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Resources.Writer.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Extensions.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Handles.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.InteropServices.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Numerics.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Serialization.Json.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Security.Claims.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Security.Cryptography.Csp.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Security.Principal.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Security.SecureString.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Text.Encoding.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Text.Encoding.Extensions.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Text.RegularExpressions.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.Overlapped.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.Tasks.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.Thread.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.ThreadPool.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Threading.Timer.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.ValueTuple.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Xml.XDocument.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Xml.XmlDocument.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Xml.XmlSerializer.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Xml.XPath.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\Library.dll.config
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\TMSBL.dll.config
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\TMSBO.dll.config
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\TMSDL.dll.config
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\obj\Debug\TMSAPI.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\obj\Debug\TMSAPI.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\Unity.AspNet.WebApi.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\WebActivatorEx.dll
+C:\Users\Admin\Source\Repos\TMSAPI\TMSAPI\bin\Unity.AspNet.WebApi.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSAPI.dll.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSAPI.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSAPI.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\csc.exe
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\csc.exe.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\csc.rsp
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\csi.exe
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\csi.exe.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\csi.rsp
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.AppContext.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Console.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.IO.Compression.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.IO.Pipes.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.Claims.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.ValueTuple.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Xml.XPath.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\vbc.exe
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\vbc.exe.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\vbc.rsp
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Win32.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\netstandard.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.AppContext.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Collections.Concurrent.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Collections.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Collections.NonGeneric.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Collections.Specialized.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.ComponentModel.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.ComponentModel.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Console.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Data.Common.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.Contracts.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.Debug.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.Process.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.StackTrace.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.Tools.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.TraceSource.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Diagnostics.Tracing.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Drawing.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Dynamic.Runtime.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Globalization.Calendars.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Globalization.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Globalization.Extensions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.Compression.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.Compression.ZipFile.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.FileSystem.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.IsolatedStorage.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.Pipes.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Linq.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Linq.Expressions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Linq.Parallel.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Linq.Queryable.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Http.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.NameResolution.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.NetworkInformation.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Ping.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Requests.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Security.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Sockets.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.WebHeaderCollection.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.WebSockets.Client.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.WebSockets.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.ObjectModel.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Reflection.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Reflection.Extensions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Reflection.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Resources.Reader.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Resources.ResourceManager.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Resources.Writer.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Extensions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Handles.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.InteropServices.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Numerics.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Serialization.Json.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Claims.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Cryptography.Csp.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.Principal.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Security.SecureString.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Text.Encoding.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Text.Encoding.Extensions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Text.RegularExpressions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Overlapped.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Tasks.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Thread.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.ThreadPool.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Timer.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.ValueTuple.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Xml.ReaderWriter.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Xml.XDocument.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Xml.XmlDocument.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Xml.XmlSerializer.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Xml.XPath.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Xml.XPath.XDocument.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Library.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.Security.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Newtonsoft.Json.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\NLog.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Owin.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Http.Formatting.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Web.Http.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Web.Http.WebHost.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSBL.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSBO.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSDL.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.Abstractions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.AspNet.WebApi.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.Container.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.Interception.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\WebActivatorEx.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\MySql.Data.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Dapper.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Google.Protobuf.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\BouncyCastle.Crypto.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Renci.SshNet.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Library.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Library.dll.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSBL.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSBL.dll.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSBO.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSBO.dll.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSDL.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\TMSDL.dll.config
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.Security.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Newtonsoft.Json.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\NLog.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Net.Http.Formatting.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Web.Http.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\System.Web.Http.WebHost.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.Abstractions.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.AspNet.WebApi.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.Container.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Unity.Interception.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\MySql.Data.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Dapper.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Google.Protobuf.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\bin\Renci.SshNet.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\obj\Debug\TMSAPI.csprojAssemblyReference.cache
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\obj\Debug\TMSAPI.csproj.CopyComplete
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\obj\Debug\TMSAPI.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\ELearningAPI\ELearningAPI\TMSAPI\obj\Debug\TMSAPI.pdb
