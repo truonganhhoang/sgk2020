@@ -20,3 +20,26 @@ c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\DL\bin\Deb
 c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\DL\obj\Debug\DL.csprojResolveAssemblyReference.cache
 c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\DL\obj\Debug\DL.dll
 c:\users\admin\documents\visual studio 2015\Projects\PatternAPIServer\DL\obj\Debug\DL.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\DL.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\DL.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\BO.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Google.Protobuf.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Library.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\MySql.Data.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Renci.SshNet.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\System.Security.AccessControl.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\System.Security.Permissions.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\BO.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Library.pdb
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Google.Protobuf.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\MySql.Data.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\bin\Debug\Renci.SshNet.xml
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\obj\Debug\DL.csprojAssemblyReference.cache
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\obj\Debug\DL.csproj.CopyComplete
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\obj\Debug\DL.dll
+C:\Users\vietc\OneDrive\Desktop\KLTN ^_^\sgk2020\BackEnd\APIPattern\DL\obj\Debug\DL.pdb
